@@ -11,9 +11,7 @@ export default function AppSafeArea({
   return (
     <View style={{ flex: 1, backgroundColor }}>
       <StatusBar hidden={statusBarHidden} />
-      <SafeAreaView style={{ flex: 1, backgroundColor }}>
-        {children}
-      </SafeAreaView>
+      <SafeAreaView style={{ flex: 1, backgroundColor }}>{children}</SafeAreaView>
     </View>
   );
 }

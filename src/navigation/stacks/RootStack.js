@@ -9,7 +9,6 @@ const Stack = createNativeStackNavigator();
 export default function RootStack() {
   return (
     <Stack.Navigator screenOptions={screenOptions}>
-      {/* Screens will be plugged later */}
       <Stack.Screen name="Splash" component={Splash} />
       <Stack.Screen name="Welcome" component={Welcome} />
     </Stack.Navigator>

@@ -10,7 +10,6 @@ const navFonts = {
 export const navTheme = {
   dark: true,
 
-  // React Navigation required key:
   colors: {
     primary: colors.brand.primary,
     background: colors.background.app,
@@ -20,7 +19,7 @@ export const navTheme = {
     notification: colors.brand.accent,
   },
 
-  // ✅ EMAZ Design Tokens (extra keys - safe)
+  // extra safe tokens
   brand: colors.brand,
   backgroundTokens: colors.background,
   textTokens: colors.text,

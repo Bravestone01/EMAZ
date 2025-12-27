@@ -1,27 +1,25 @@
 export const shadows = Object.freeze({
-  level0: {},
-
-  level1: {
+  sm: {
     shadowColor: "#000",
-    shadowOpacity: 0.16,
-    shadowRadius: 6,
-    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.14,
+    shadowRadius: 5,
+    shadowOffset: { width: 0, height: 2 },
     elevation: 3,
   },
 
-  level2: {
+  md: {
     shadowColor: "#000",
-    shadowOpacity: 0.22,
-    shadowRadius: 10,
-    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.18,
+    shadowRadius: 9,
+    shadowOffset: { width: 0, height: 4 },
     elevation: 6,
   },
 
-  level3: {
+  lg: {
     shadowColor: "#000",
-    shadowOpacity: 0.28,
+    shadowOpacity: 0.22,
     shadowRadius: 14,
-    shadowOffset: { width: 0, height: 8 },
+    shadowOffset: { width: 0, height: 7 },
     elevation: 10,
   },
 });
