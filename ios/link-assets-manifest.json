@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/NotoSansArabic-Bold.ttf",
+      "sha1": "d93e430cacb991a36e6605cffd83c8c8e9474cea"
+    },
+    {
+      "path": "src/assets/fonts/NotoSansArabic-Medium.ttf",
+      "sha1": "843fce5c95e07fb7cdf3a295160ec74328d59da9"
+    },
+    {
+      "path": "src/assets/fonts/NotoSansArabic-Regular.ttf",
+      "sha1": "471fde3d95e5f5ac70f37c7774f40b43cdacb89e"
+    }
+  ]
+}
